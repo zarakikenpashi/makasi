@@ -403,7 +403,7 @@ label[for]:not(.hal-zoom) {
 cursor: pointer;
 }
 a {
-color: #e65f05;
+color: var(--orange);
 font-size: 14px;
 font-size: 1.4rem;
 line-height: 1.42857143;
@@ -1889,6 +1889,7 @@ width: 100%;
 .hal-columns--3 .hal-column,
 .hal-columns--3 .hal-column:last-child {
 width: 33.33333333%;
+padding-right: 5rem;
 }
 }
 @media  (min-width: 768px) {
